@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('/fonte/netflix-sans-font/NetflixSans-Regular.otf');
+}
+
+:root{
+    --cor-principal: #FFFFFF;
+    --cor-fundo: #111111;
+    --cor-texto: #7f7f7f;
+    --fonte-principal: 'Netflix Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 5%;
+}
+
+body {
+    height: 100vh;
+    background-color: #060606;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: var(--fonte-principal);
+
+
+}
+
+.container__titulo {
+    color: #FFF;
+    font-size: 3.5vw;
+    font-weight: 400;
+}
+
+.lista__texto-perfil {
+    color: var(--cor-texto);
+    font-size: 1.2vw;
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    border: 1px solid var(--cor-texto);
+    padding: 0.5em 1.4em;
+    
+}
+.lista__texto-perfil:hover{
+    color: var(--cor-principal);
+    border: 1px solid var(--cor-principal);
+    
+
+}
+.botao__perfil {
+    margin: 6em;
+}
+
+.listas__links__img:hover .container__imagem {
+    border: 0.2em solid var(--cor-principal);
+    border-radius: 4px;
+}
+
+.listas__links__img:hover .lista__texto {
+    color: var(--cor-principal);
+}
+
+
+.container__imagem{
+    border: 0.2em solid transparent;
+    margin-top: 2em;
+    width: 150px;
+    height: 150px; 
+    border-radius: 0.4em;
+    
+    
+}
+.container__imagem:hover{
+    border: 0.2em solid var(--cor-principal);
+    border-radius: 4px;
+    
+    
+    
+}
+
+
+.listas__links{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 1.5em;
+
+}
+
+.lista__texto{
+    color: var(--cor-texto);
+    margin-top: 0.5em;
+    text-decoration: none;
+    text-align: center;
+
+    
+
+}
+.lista__texto:hover {
+    color: var(--cor-principal);
+}
+
+
+
+
+
+.apresentacao__links__link {
+    text-decoration: none;
+    
+}
+
+
+
+
+
