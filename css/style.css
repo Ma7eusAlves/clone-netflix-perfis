@@ -114,8 +114,9 @@ body {
 
 
 
-media screen and (max-width: 768px) {
-body {
+@media screen and (max-width: 768px) {
+
+.container__imagem {
    width: 50%;
 }
 
