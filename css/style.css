@@ -130,12 +130,16 @@ body {
  
 .lista__texto-perfil {
   font-size: 2.5vw;
-  margin: 3em;
+  
 
 }
 .lista__texto {
   font-size: 2vw;
 
 }
+.botao__perfil {
+    margin: 3em;
+}
+
 }
 
