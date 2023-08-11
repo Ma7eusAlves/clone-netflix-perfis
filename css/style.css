@@ -130,6 +130,7 @@ body {
  
 .lista__texto-perfil {
   font-size: 2.5vw;
+  margin: auto;
 
 }
 .lista__texto {
